@@ -46,6 +46,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Externals\Highlighting System\HighlightingSystemDemo\Scripts\Advanced\CameraTargeting.cs" />
+     <Compile Include="Assets\Externals\Highlighting System\HighlightingSystemDemo\Scripts\Advanced\CompoundObjectController.cs" />
+     <Compile Include="Assets\Externals\Highlighting System\HighlightingSystemDemo\Scripts\Advanced\ConstantHighlighting.cs" />
+     <Compile Include="Assets\Externals\Highlighting System\HighlightingSystemDemo\Scripts\Advanced\FlashingController.cs" />
+     <Compile Include="Assets\Externals\Highlighting System\HighlightingSystemDemo\Scripts\Advanced\HighlighterController.cs" />
+     <Compile Include="Assets\Externals\Highlighting System\HighlightingSystemDemo\Scripts\Advanced\HighlighterOccluder.cs" />
+     <Compile Include="Assets\Externals\Highlighting System\HighlightingSystemDemo\Scripts\Advanced\SpectrumController.cs" />
+     <Compile Include="Assets\Externals\Highlighting System\HighlightingSystemDemo\Scripts\Basic\CSHighlighterController.cs" />
+     <Compile Include="Assets\Externals\Highlighting System\HighlightingSystemDemo\Scripts\Helpers\MovementController.cs" />
+     <Compile Include="Assets\Externals\Highlighting System\HighlightingSystemDemo\Scripts\Helpers\RotationController.cs" />
+     <Compile Include="Assets\Externals\Highlighting System\HighlightingSystemDemo\Scripts\Service\CameraFlyController.cs" />
+     <Compile Include="Assets\Externals\Highlighting System\HighlightingSystemDemo\Scripts\Service\FPSCounter.cs" />
+     <Compile Include="Assets\Externals\Highlighting System\HighlightingSystemDemo\Scripts\Service\PresetSelector.cs" />
+     <Compile Include="Assets\Externals\Highlighting System\HighlightingSystemDemo\Scripts\Service\SceneLoader.cs" />
      <Compile Include="Assets\script\Choices.cs" />
      <Compile Include="Assets\script\Layer.cs" />
      <Compile Include="Assets\script\Move.cs" />
@@ -58,6 +72,11 @@
      <Compile Include="Assets\script\linkl.cs" />
      <Compile Include="Assets\script\updata.cs" />
      <Compile Include="Assets\script\zhuan.cs" />
+     <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingBlur.shader" />
+     <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingTransparent.shader" />
+     <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingComposite.shader" />
+     <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingOpaque.shader" />
+     <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingCut.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -79,6 +98,10 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{97D4EF91-1C94-E3E9-D770-31F78CEE71AD}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

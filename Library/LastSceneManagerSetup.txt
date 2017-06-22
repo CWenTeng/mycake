@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scene/mycake.unity
+- path: D:/Documents/Unet Game/Assets/Scenes/Main.unity
   isLoaded: 1
   isActive: 1

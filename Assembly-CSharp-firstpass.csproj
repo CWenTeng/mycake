@@ -46,16 +46,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\HighlightableObject.cs" />
-     <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\HighlightingEffect.cs" />
+     <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\Highlighter.cs" />
+     <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\HighlightingRenderer.cs" />
+     <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\Internal\HighlighterInternal.cs" />
+     <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\Internal\HighlighterManager.cs" />
+     <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\Internal\HighlightingBase.cs" />
+     <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\Internal\RendererCache.cs" />
+     <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\Internal\ShaderPropertyID.cs" />
      <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingBlur.shader" />
-     <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingStencilTransparent.shader" />
-     <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingInclude.cginc" />
+     <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingTransparent.shader" />
      <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingComposite.shader" />
-     <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingStencilOpaqueZ.shader" />
-     <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingStencilOpaque.shader" />
-     <None Include="Assets\script\NewSurfaceShader.shader" />
-     <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingStencilTransparentZ.shader" />
+     <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingOpaque.shader" />
+     <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingCut.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
